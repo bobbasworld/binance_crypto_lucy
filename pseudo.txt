@@ -1,0 +1,6 @@
+Get cryptocurrency prices/quantity from the Binance/CoinMarketCap API
+Create a Telegram bot with BotFather
+Create a Flask application and handle requests from Telegram (receiving and sending messages). Test it with 
+    a tunnel.
+Combine the Binance/CoinMarketCap parser and the Telegram bot
+Deploy to PythonAnywhere/Heroku and install Flask-SSLify to solve SSL certificate issue
