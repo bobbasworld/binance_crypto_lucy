@@ -1,7 +1,13 @@
-bot_token="1097324524:AAGyTMdsD9CvOBfOuM8_CHIHlq49R6puHFU"
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
+
+# telegram 
+bot_token= os.environ["BOT_TOKEN"]
 # bot_user_name=CoinWhispersBot
 # URL=https://coin-whispers-bot.herokuapp.com/
 
-
-api_key="5Z8qTHldguDPv0OOQ1KDxJd0DTpua7YatCCtRYXgRfcxIada3AkSG3vNZK99cSEZ"
-api_secret="ZYc23QztKioVg4YR1k3vZZsNXtD72EAIzfp4G7JPY7AXVarT0H5qbLe3a2sHuTO7"
+# binance
+api_key= os.environ["API_KEY"]
+api_secret= os.environ["API_SECRET"]

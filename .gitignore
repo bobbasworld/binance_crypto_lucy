@@ -1,1 +1,6 @@
 /venv
+.env
+
+__pycache__/app.cpython-37.pyc
+__pycache__/tokens.cpython-37.pyc
+__pycache__/helpers.cpython-37.pyc
