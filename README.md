@@ -2,4 +2,11 @@ Create a .env file with variables: FLASK_ENV, BOT_TOKEN, API_KEY(optional), API_
 
 Create a virtual environment using `virtualenv` and then download packages in `requirements.txt`
 
+Remove any existing webhooks, then set new webhook with hosted url (ex: https://ngrok.io)
+
 Run `Flask run` to run `app.py`
+
+Telegram webhook methods:
+https://api.telegram.org/bot<BOT_TOKEN>/deleteWebhook
+https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<hosted_url>
+
