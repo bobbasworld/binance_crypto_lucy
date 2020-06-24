@@ -6,7 +6,9 @@ Remove any existing webhooks, then set new webhook with hosted url (ex: https://
 
 Run `Flask run` to run `app.py`
 
-Telegram webhook methods:
-https://api.telegram.org/bot<BOT_TOKEN>/deleteWebhook
-https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<hosted_url>
+
+**Telegram webhook methods:**
+
+1. https://api.telegram.org/bot<BOT_TOKEN>/deleteWebhook
+2. https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<hosted_url>
 
